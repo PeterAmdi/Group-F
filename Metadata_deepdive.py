@@ -44,3 +44,62 @@ print("_____________________________________________")
 print("We clean the data for missing values, as around 804 values are missing in half the columns")
 nan_count2 = df.isna().sum()
 print(nan_count2)
+#OUTPUT
+_____________________________________________
+This is the spread of prevalence for Males:
+diagnostic
+BCC    439
+ACK    130
+SCC    102
+NEV     26
+MEL     24
+SEK     20
+Name: count, dtype: int64
+_____________________________________________
+This is the spread of prevalence for Females:
+diagnostic
+BCC    406
+ACK    153
+SCC     90
+NEV     49
+MEL     28
+SEK     27
+Name: count, dtype: int64
+_____________________________________________
+This is the spread of prevalence for both genders:
+diagnostic
+BCC    845
+ACK    283
+SCC    192
+NEV     75
+MEL     52
+SEK     47
+Name: count, dtype: int64
+_____________________________________________
+We clean the data for missing values, as around 804 values are missing in half the columns
+patient_id               0
+lesion_id                0
+smoke                  804
+drink                  804
+background_father      818
+background_mother      822
+age                      0
+pesticide              804
+gender                 804
+skin_cancer_history    804
+cancer_history         804
+has_piped_water        804
+has_sewage_system      804
+fitspatrick            804
+region                   0
+diameter_1             804
+diameter_2             804
+diagnostic               0
+itch                     0
+grew                     0
+hurt                     0
+changed                  0
+bleed                    0
+elevation                0
+img_id                   0
+biopsed                  0
