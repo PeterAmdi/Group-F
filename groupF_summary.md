@@ -14,7 +14,7 @@ Missing data and low quality images.
 
 Since there is a lot of missing data in the table provided to us, we were forced to clean it up.
 When cleaning the data based on the columns “gender information”, “skin cancer history”, “cancer history”, 
-“region”, “diagnostic” and “image id” we got a total of 804 rows where one of the before mentioned columns has NaN as its input.
+“region”, “diagnostic” and “image id” we got a total of 804 rows where one of the before mentioned columns has NaN as its input. In our further research, we used data without this 804 rows, to draw conclusions.
 
 No column in the data set shows whether or not the picture is of low quality, so there might be some pictures we can't use but since that data set after cleaning is 1494 
 and that is too many pictures to go through one by one. Working with the data set description, we can be sure that the pictures are of different sizes and most likely of different quality, since they were made by different devices. Low-quality photos can affect masks, and accordingly they can affect the result of our research.
@@ -44,11 +44,18 @@ There is a difference in the prevalence of Basal Cell Carcinoma, here the preval
 Finally for Seborrheic Keratosis the difference in prevalence is  2.69% for males and 3.58% for females, which is a quite big difference.
 
 Citations:
+
 1: https://data.mendeley.com/datasets/zr7vgbcyr2/1
-2: Our_python_code
+
+2: Metadata_deepdive.py in our repository
+
 3: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4143108/
+
 4: https://www.sciencedirect.com/science/article/pii/S0010482519304019#tbl1
+
 5: https://doi.org/10.1007/978-1-4612-3790-7_5
+
 6: https://doi.org/10.1016/j.jaad.2006.11.032.
 (https://www.sciencedirect.com/science/article/pii/S0190962206040965)
+
 7: https://www.aafp.org/pubs/afp/issues/2015/0201/p185.html?adb_sid=3f2fa233-444b-4e87-a5c4-0277499c4be4 
