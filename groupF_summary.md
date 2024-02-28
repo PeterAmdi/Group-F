@@ -43,3 +43,12 @@ There is also a difference in Actinic Keratosis for males and females, here ther
 There is a difference in the prevalence of Basal Cell Carcinoma, here the prevalence for males is 59.23% while it is 56.55% for females. 
 Finally for Seborrheic Keratosis the difference in prevalence is  2.69% for males and 3.58% for females, which is a quite big difference.
 
+Citations:
+1: https://data.mendeley.com/datasets/zr7vgbcyr2/1
+2: Our_python_code
+3: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4143108/
+4: https://www.sciencedirect.com/science/article/pii/S0010482519304019#tbl1
+5: https://doi.org/10.1007/978-1-4612-3790-7_5
+6: https://doi.org/10.1016/j.jaad.2006.11.032.
+(https://www.sciencedirect.com/science/article/pii/S0190962206040965)
+7: https://www.aafp.org/pubs/afp/issues/2015/0201/p185.html?adb_sid=3f2fa233-444b-4e87-a5c4-0277499c4be4 
