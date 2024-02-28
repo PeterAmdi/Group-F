@@ -4,6 +4,12 @@ After viewing the description for the given dataset, we can be sure that we are 
 
 BCC also known as Basal Cell Carcinoma, is a skin cancer type, which is one of the most common ones among different skin cancer types. In the data set there are a total of 845 instances of the BCC diagnoses, making it the most common one in the dataset.2 It generally contains features like bleeding, pain and present elevation. Features that are shared by the SCC skin cancer type, making it difficult to distinguish the two types based on those features.3
 
+MEL or Melanoma is the deadliest type of skin cancer. Melanoma is a molecularly heterogeneous disease, with diverse genomic alterations and clinical phenotypes. Some mutations are well characterized, but the significance of others remains unclear. Often melanoma has no symptoms, however, the first sign is generally a change in an existing mole or the appearance of a new spot.4
+
+SCC or as it is also known as Squamous Cell Carcinoma, is one of the most common skin cancers in the world.5 Common symptoms for SCC are tenderness and change in size for the lesion.6 There are a total of 192 people from the data set that have been diagnosed with SCC.2
+
+Common symptoms of SEK are scaling, itching and erythema.7 It typically appears in the face.4 In the data set it accounts for 235 images of the total 2298 images.2
+
 Missing data and low quality images.
 
 Since there is a lot of missing data in the table provided to us, we were forced to clean it up.
