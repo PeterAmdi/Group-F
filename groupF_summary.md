@@ -1,6 +1,6 @@
 Prevalence of the different skin cancers and diseases:
 
-For this part we have used our cleaned version of the dataset(Without all the null values)
+For this part we have used our cleaned version of the dataset (Without all the null values)
 
 We have 741 Males and 753 Females in the study, so 1494 people in total.
 
