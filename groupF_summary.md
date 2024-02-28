@@ -17,7 +17,7 @@ When cleaning the data based on the columns “gender information”, “skin ca
 “region”, “diagnostic” and “image id” we got a total of 804 rows where one of the before mentioned columns has NaN as its input. In our further research, we used data without this 804 rows, to draw conclusions.
 
 No column in the data set shows whether or not the picture is of low quality, so there might be some pictures we can't use but since that data set after cleaning is 1494 
-and that is too many pictures to go through one by one. Working with the data set description, we can be sure that the pictures are of different sizes and most likely of different quality, since they were made by different devices. Low-quality photos can affect masks, and accordingly they can affect the result of our research.
+and that is too many pictures to go through one by one. Working with the data set description, we can be sure that the pictures are of different sizes and most likely of different quality, since they were made by different devices.[^1] Low-quality photos can affect masks, and accordingly they can affect the result of our research.
 
 Prevalence of the different skin cancers and diseases:
 
