@@ -1,14 +1,14 @@
 Types of diagnoses and how they relate
 
-After viewing the description for the given dataset, we can be sure that we are presented with skin lesions such as: Basal Cell Carcinoma (BCC), Squamous Cell Carcinoma (SCC), Actinic Keratosis (ACK), Seborrheic Keratosis (SEK), Bowen’s disease (BOD), Melanoma (MEL), and Nevus (NEV).  These skin lesions are also divided into two groups: skin cancers (BCC, MEL, SCC(including BOD)), skin diseases (ACK, SEK, and NEV).  In addition, we may note that MEL, NEV, and SEK are pigmented skin lesions and SCC, BCC and ACK are non-pigmented ones.1
+After viewing the description for the given dataset, we can be sure that we are presented with skin lesions such as: Basal Cell Carcinoma (BCC), Squamous Cell Carcinoma (SCC), Actinic Keratosis (ACK), Seborrheic Keratosis (SEK), Bowen’s disease (BOD), Melanoma (MEL), and Nevus (NEV).  These skin lesions are also divided into two groups: skin cancers (BCC, MEL, SCC(including BOD)), skin diseases (ACK, SEK, and NEV).  In addition, we may note that MEL, NEV, and SEK are pigmented skin lesions and SCC, BCC and ACK are non-pigmented ones.[^1]
 
-BCC also known as Basal Cell Carcinoma, is a skin cancer type, which is one of the most common ones among different skin cancer types. In the data set there are a total of 845 instances of the BCC diagnoses, making it the most common one in the dataset.2 It generally contains features like bleeding, pain and present elevation. Features that are shared by the SCC skin cancer type, making it difficult to distinguish the two types based on those features.3
+BCC also known as Basal Cell Carcinoma, is a skin cancer type, which is one of the most common ones among different skin cancer types. In the data set there are a total of 845 instances of the BCC diagnoses, making it the most common one in the dataset.[^2] It generally contains features like bleeding, pain and present elevation. Features that are shared by the SCC skin cancer type, making it difficult to distinguish the two types based on those features.[^3]
 
-MEL or Melanoma is the deadliest type of skin cancer. Melanoma is a molecularly heterogeneous disease, with diverse genomic alterations and clinical phenotypes. Some mutations are well characterized, but the significance of others remains unclear. Often melanoma has no symptoms, however, the first sign is generally a change in an existing mole or the appearance of a new spot.4
+MEL or Melanoma is the deadliest type of skin cancer. Melanoma is a molecularly heterogeneous disease, with diverse genomic alterations and clinical phenotypes. Some mutations are well characterized, but the significance of others remains unclear. Often melanoma has no symptoms, however, the first sign is generally a change in an existing mole or the appearance of a new spot.[^4]
 
-SCC or as it is also known as Squamous Cell Carcinoma, is one of the most common skin cancers in the world.5 Common symptoms for SCC are tenderness and change in size for the lesion.6 There are a total of 192 people from the data set that have been diagnosed with SCC.2
+SCC or as it is also known as Squamous Cell Carcinoma, is one of the most common skin cancers in the world.[^5] Common symptoms for SCC are tenderness and change in size for the lesion.[^6] There are a total of 192 people from the data set that have been diagnosed with SCC.[^2]
 
-Common symptoms of SEK are scaling, itching and erythema.7 It typically appears in the face.4 In the data set it accounts for 235 images of the total 2298 images.2
+Common symptoms of SEK are scaling, itching and erythema.[^7] It typically appears in the face.4 In the data set it accounts for 235 images of the total 2298 images.[^2]
 
 Missing data and low quality images.
 
@@ -41,21 +41,21 @@ From these statistics we can see a significant difference in the prevalence of N
 This might indicate some sort of weakness for this specific disease in Females. 
 There is also a difference in Actinic Keratosis for males and females, here there is 17.54% prevalence for males and 20.31% prevalence for females. 
 There is a difference in the prevalence of Basal Cell Carcinoma, here the prevalence for males is 59.23% while it is 56.55% for females. 
-Finally for Seborrheic Keratosis the difference in prevalence is  2.69% for males and 3.58% for females, which is a quite big difference.
+Finally for Seborrheic Keratosis the difference in prevalence is  2.69% for males and 3.58% for females, which is a quite big difference.[^2]
 
 Citations:
 
-1: https://data.mendeley.com/datasets/zr7vgbcyr2/1
+[^1]: https://data.mendeley.com/datasets/zr7vgbcyr2/1
 
-2: Metadata_deepdive.py in our repository
+[^2]: https://github.com/PeterAmdi/Group-F/blob/main/Metadata_deepdive.py
 
-3: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4143108/
+[^3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4143108/
 
-4: https://www.sciencedirect.com/science/article/pii/S0010482519304019#tbl1
+[^4]: https://www.sciencedirect.com/science/article/pii/S0010482519304019#tbl1
 
-5: https://doi.org/10.1007/978-1-4612-3790-7_5
+[^5]: https://doi.org/10.1007/978-1-4612-3790-7_5
 
-6: https://doi.org/10.1016/j.jaad.2006.11.032.
+[^6]: https://doi.org/10.1016/j.jaad.2006.11.032.
 (https://www.sciencedirect.com/science/article/pii/S0190962206040965)
 
-7: https://www.aafp.org/pubs/afp/issues/2015/0201/p185.html?adb_sid=3f2fa233-444b-4e87-a5c4-0277499c4be4 
+[^7]: https://www.aafp.org/pubs/afp/issues/2015/0201/p185.html?adb_sid=3f2fa233-444b-4e87-a5c4-0277499c4be4 
