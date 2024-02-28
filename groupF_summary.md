@@ -11,9 +11,7 @@ and that is too many pictures to go through one by one. Working with the data se
 Prevalence of the different skin cancers and diseases:
 
 For this part we have used our cleaned version of the dataset (Without all the null values)
-
 We have 741 Males and 753 Females in the study, so 1494 people in total.
-
 We can from our data deepdive see the following split between genders:
 
 BCC: Males 439 (59.23%), Females 406 (53.91%), Both genders 845 (56.55%)
