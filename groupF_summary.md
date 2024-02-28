@@ -1,3 +1,13 @@
+
+Missing data and low quality images.
+
+Since there is a lot of missing data in the table provided to us, we were forced to clean it up.
+When cleaning the data based on the columns “gender information”, “skin cancer history”, “cancer history”, 
+“region”, “diagnostic” and “image id” we got a total of 804 rows where one of the before mentioned columns has NaN as its input.
+
+No column in the data set shows whether or not the picture is of low quality, so there might be some pictures we can't use but since that data set after cleaning is 1494 
+and that is too many pictures to go through one by one. Working with the data set description, we can be sure that the pictures are of different sizes and most likely of different quality, since they were made by different devices. Low-quality photos can affect masks, and accordingly they can affect the result of our research.
+
 Prevalence of the different skin cancers and diseases:
 
 For this part we have used our cleaned version of the dataset (Without all the null values)
@@ -23,3 +33,4 @@ This might indicate some sort of weakness for this specific disease in Females.
 There is also a difference in Actinic Keratosis for males and females, here there is 17.54% prevalence for males and 20.31% prevalence for females. 
 There is a difference in the prevalence of Basal Cell Carcinoma, here the prevalence for males is 59.23% while it is 56.55% for females. 
 Finally for Seborrheic Keratosis the difference in prevalence is  2.69% for males and 3.58% for females, which is a quite big difference.
+
