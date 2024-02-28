@@ -1,3 +1,8 @@
+Types of diagnoses and how they relate
+
+“After viewing the description for the given dataset, we can be sure that we are presented with skin lesions such as: Basal Cell Carcinoma (BCC), Squamous Cell Carcinoma (SCC), Actinic Keratosis (ACK), Seborrheic Keratosis (SEK), Bowen’s disease (BOD), Melanoma (MEL), and Nevus (NEV).  These skin lesions are also divided into two groups: skin cancers (BCC, MEL, SCC(including BOD)), skin diseases (ACK, SEK, and NEV).  In addition, we may note that MEL, NEV, and SEK are pigmented skin lesions and SCC, BCC and ACK are non-pigmented ones.”1
+
+BCC also known as Basal Cell Carcinoma, is a skin cancer type, which is one of the most common ones among different skin cancer types. In the data set there are a total of 845 instances of the BCC diagnoses, making it the most common one in the dataset.2 It generally contains features like bleeding, pain and present elevation. Features that are shared by the SCC skin cancer type, making it difficult to distinguish the two types based on those features.3
 
 Missing data and low quality images.
 
