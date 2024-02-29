@@ -10,6 +10,10 @@ SCC or as it is also known as Squamous Cell Carcinoma, is one of the most common
 
 Common symptoms of SEK are scaling, itching and erythema.[^7] It typically appears in the face.4 In the data set it accounts for 235 images of the total 2298 images.[^2]
 
+ACK or Actinic keratoses is a skin disease. The disease is recognized by patches on the skin. These patches are recognized as dry and scaly patches of skin that have been damaged by the sun. These skin lesions are not usually serious, but there’s a small chance that these lesions can turn into skin cancer. The patches usually appear on spots on your body that often are exposed to sunlight, like face, hands, arms, ears or scalp. In the dataset, 283 people are diagnosed with ACK.[^8]
+
+NEV or Nevus is the actual medical term for a mole, and is a skin disease. Most people have Nevi on their body, commonly between 10 and 40. Common nevi are not dangerous, and are just collections of colored cells, however, some moles can become cancerous. Typically appearing as small brown, tan, or pink spots on the skin. You can be born with Nevi or develop them later in life. They can also develop later in life as a result of sun exposure. 75 people in the dataset are diagnosed with NEV.[^9]
+
 Missing data and low quality images.
 
 Since there is a lot of missing data in the table provided to us, we were forced to clean it up.
@@ -59,3 +63,7 @@ Citations:
 (https://www.sciencedirect.com/science/article/pii/S0190962206040965)
 
 [^7]: https://www.aafp.org/pubs/afp/issues/2015/0201/p185.html?adb_sid=3f2fa233-444b-4e87-a5c4-0277499c4be4 
+
+[^8]: https://www.nhs.uk/conditions/actinic-keratoses/
+
+[^9]: https://www.healthline.com/health/nevus#diagnosis
